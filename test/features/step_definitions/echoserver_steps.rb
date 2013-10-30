@@ -10,6 +10,7 @@ end
 
 After do
   `kill \`cat tmp/aruba/.pid\``
+  `sleep 1`
 end
 
 Given /^a server from "([^"]*)" and a client from "([^"]*)"$/ do |server, client|
