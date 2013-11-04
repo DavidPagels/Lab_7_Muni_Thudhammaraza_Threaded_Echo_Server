@@ -1,0 +1,1 @@
+The file used to test the threaded server was the pumpkin picture from the previous lab. When the server was set up using an ArrayList of threads, the system ran out of memory at around 40 Clients. However, the runtime for one thread was less than a second and this increased by about 1 second for every 10 threads.
